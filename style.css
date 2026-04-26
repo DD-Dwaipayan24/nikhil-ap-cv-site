@@ -1,0 +1,33 @@
+body{
+font-family: Arial;
+margin:0;
+}
+
+.hero{
+background-image: url("images/background.jpg");
+height:500px;
+background-size:cover;
+color:white;
+}
+
+.overlay{
+background:rgba(0,0,0,0.5);
+height:100%;
+}
+
+.hero-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:60px;
+}
+
+.profile{
+width:250px;
+border-radius:10px;
+}
+
+.awards{
+padding:40px;
+text-align:center;
+}
